@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin-top: 0px;//1em;
+  margin-bottom: 0px;//2em;
 
   @include breakpoint($large) {
     float: right;
@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  font-size: 0.7em;//-size-5;
 
   a {
     position: relative;
@@ -31,10 +32,11 @@
   }
 }
 
+//size "Recent Post" at the beginning of the page
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  //font-size: $type-size-5;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -44,8 +46,9 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.05em;
   font-family: $sans-serif-narrow;
+  font-size: 1.8em;//$type-size-5;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -70,6 +73,20 @@
     margin-top: 1em;
     border-bottom: none;
   }
+}
+
+.archive__item-teaser, .archive__item-teaser-imageclickhandler {
+  // display: inline-block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 240px;
+  width: 100%;
+}
+
+.archive__item-teaser-imageclickhandler {
+  position: absolute;
+  top: 0;
 }
 
 .archive__item-excerpt {

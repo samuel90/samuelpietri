@@ -199,6 +199,14 @@ kramdown:
   enable_coderay: false
 
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -281,6 +289,19 @@ compress_html:
 #       related: true
 #       show_date: true
 
+# # Defaults
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: # true
+#       share: true
+#       related: true
 # Defaults
 defaults:
   # _posts
@@ -289,8 +310,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
       share: true
       related: true
+      author_profile: true
+      read_time: false
+      comments:  true
+
