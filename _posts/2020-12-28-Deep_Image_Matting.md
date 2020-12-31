@@ -4,6 +4,7 @@ title:  "Deep Image Matting"
 excerpt: "Dive into different solutions for image matting."
 date:   2020-12-26 16:28:53 +0100
 categories: deep-learning image-matting
+classes: wide 
 header:
   teaser: "assets/images/002_image_matting/test.png"
   #overlay_image: "assets/images/002_image_matting/test.png"
