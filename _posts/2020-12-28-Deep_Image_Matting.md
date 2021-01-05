@@ -9,26 +9,44 @@ header:
   teaser: "assets/images/002_image_matting/test.png"
   #overlay_image: "assets/images/002_image_matting/test.png"
 ---
-This is a test post inside `_posts`. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+The greenscreen will become obsolete, that's a fact. One way or another new techniques will jump in and will make work of image-matting a much more automated, less time-consuming job. To be fair some alternatives are already been used in Hollywood productions such as the [virtual sets](https://www.insider.com/green-screen-virtual-sets-mandalorian-2020-4) used in the latest Disney series "The Mandalorian". A set of led screens recreate the environment in real time improving the effects of reflections and allowing the actors to move in a much more realistic set are becoming a thing. 
+Deep learning techniques are coming up, as well, letting the practice of manually cutting out content over background becoming fully automated, with almost no supervision. Now I'll take a look at a couple of alternatives that I found interesting trying them out with different content and since I've already introduced the Mandalorian I'll use some of its shots to test various techniques.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+MODNet
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![MODNet_001](/assets/images/002_image_matting/MODNet_001.jpg)
 
-Jekyll also offers powerful support for code snippets:
+![MODNet_002](/assets/images/002_image_matting/MODNet_002.jpg)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![MODNet_003](/assets/images/002_image_matting/MODNet_003.jpg)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+U-2-Net
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![U-2-Net_001](/assets/images/002_image_matting/U-2-Net_001.jpg)
+
+![U-2-Net_002](/assets/images/002_image_matting/U-2-Net_002.jpg)
+
+![U-2-Net_003](/assets/images/002_image_matting/U-2-Net_003.jpg)
+
+
+
+
+![Image Matting Test](/assets/images/002_image_matting/Image_Matting_Test.gif)
+
+
+{% include video id="496647965" provider="vimeo" %}
+
+![MODNet_Errors](/assets/images/002_image_matting/MODNet_Errors.jpg)
+![U-2-Net_Errors](/assets/images/002_image_matting/U-2-Net_Errors.jpg)
+
+
+![MODNet_U-2-Net_001](/assets/images/002_image_matting/MODNet_U-2-Net_001.jpg)
+![MODNet_U-2-Net_002](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
+![MODNet_U-2-Net_003](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
+
+
+
+
+{% include video id="496656226" provider="vimeo" %}
+
