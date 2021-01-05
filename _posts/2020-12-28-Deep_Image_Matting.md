@@ -64,7 +64,7 @@ After some test it becomes clear that *MODNet* sometimes show these large stains
  <br />
 
 ![MODNet_Errors](/assets/images/002_image_matting/MODNet_Errors.jpg)
-
+ 
  <br />
 
 *U-2-Net* on the other hand is not showing any weird shapes in the alpha mask but at the same time is less precise finding the actual contour of the characters and it definitely struggles handling reflections, such us the one on the armour.
@@ -72,8 +72,10 @@ After some test it becomes clear that *MODNet* sometimes show these large stains
 
 ![U-2-Net_Errors](/assets/images/002_image_matting/U-2-Net_Errors.jpg)
  
- <br />
-Here some more side by side comparison between the two models. Again they both have their flaws but in the context of portrait matting I believe MODNet is doing a better job. <br />
+<br />
+
+Here some more side by side comparison between the two models. Again they both have their flaws but in the context of portrait matting I believe *MODNet* is doing a better job. 
+<br />
 
 ![MODNet_U-2-Net_001](/assets/images/002_image_matting/MODNet_U-2-Net_001.jpg)
 ![MODNet_U-2-Net_002](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
