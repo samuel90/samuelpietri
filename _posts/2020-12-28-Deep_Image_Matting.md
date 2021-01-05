@@ -63,7 +63,7 @@ And surpsingly both models are doing just fine. The time consistency is still th
 After some test it becomes clear that *MODNet* sometimes show these large stains, which are difficult to intepret since they seems to appear with different contents in the input image.
  <br />
 
-![MODNet_Errors](/assets/images/002_image_matting/MODNet_Errors.jpg)
+![MODnet_Errors](/assets/images/002_image_matting/MODnet_Errors.jpg)
  
  <br />
 
