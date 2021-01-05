@@ -34,6 +34,11 @@ U-2-Net
 
 ![Image Matting Test](/assets/images/002_image_matting/Image_Matting_Test.gif)
 
+<figure>
+    <img src="/assets/images/002_image_matting/Image_Matting_Test.gif">
+    <figcaption>CVDE monocular depth estimation</figcaption>
+</figure>
+
 
 {% include video id="496647965" provider="vimeo" %}
 
