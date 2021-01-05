@@ -77,7 +77,7 @@ Here some more side by side comparison between the two models. Again they both h
 
 ![MODNet_U-2-Net_001](/assets/images/002_image_matting/MODNet_U-2-Net_001.jpg)
 ![MODNet_U-2-Net_002](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
-![MODNet_U-2-Net_003](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
+![MODNet_U-2-Net_003](/assets/images/002_image_matting/MODNet_U-2-Net_003.jpg)
 
 
 
