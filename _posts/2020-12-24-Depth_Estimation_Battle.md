@@ -11,6 +11,9 @@ header:
 
 ---
 
+ <br />
+
+
 It's been a while since I wanted to test different depth estimation models one against each other. Each one is mainly employing deep neural networks as a backbone algorithm for the extrapolation of the depth map.
 
 I've been working with different implementations for a set of projects at [fuse*](https://www.fuseworks.it/en/), the studio in which I'm currently working, but I've never really made an extensive side by side evaluation. So I've collected a few interesting models to test. As everybody knows the Deep Learning field is blossoming and the rate at which new projects are coming out is outrageous, so I'll probably miss some nice research ones that fit into this category, in that case I'll probably test them out later.
